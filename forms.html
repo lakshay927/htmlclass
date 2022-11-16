@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Welcome</title>
+  </head>
+  <body>
+    <h1>Welcome to my website</h1>
+
+    <a href="index.html"> Home </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="forms.html">Welcome</a>
+    <a href="aboutus.html">About Us</a>
+    <br />
+    <form>
+      <label> First Name*</label>
+      <input type="text" value="Lakshay" disabled />
+
+      <label>Last Name*</label>
+      <input type="text" value="Saigal" required />
+      <br />
+      <label>Email*</label>
+      <input type="email" />
+      <label> Phone number</label>
+      <input type="number" />
+      <br />
+      <label>DOB</label>
+      <input type="date" />
+      <label>Meeting Date and Time</label>
+      <input type="datetime" />
+      <input type="datetime-local" />
+      <br />
+      <label>Gender</label>
+      <br />
+      Male <input type="radio" name="Gender" />
+      <br />
+      Female <input type="radio" name="Gender" />
+      <!-- check box -->
+      <label> Fav languages</label>
+      Html <input type="checkbox" name="favlang" /> CSS
+      <input type="checkbox" name="favlang" /> Javascript
+      <input type="checkbox" name="favlang" /> React
+      <input type="checkbox" name="favlang" /> Node
+      <input type="checkbox" name="favlang" />
+      <!-- check box -->
+      <label> select time</label>
+      <input type="time" />
+      <label>URL</label>
+      <input type="url" />
+      <br />
+
+      <label>Upload your file</label>
+      <input type="file" />
+
+      <label> Password</label>
+      <input type="password" />
+      <br />
+      <label> Pick a Color</label>
+      <input type="color" />
+      <br />
+      <label> Select a range</label>
+      <input type="range" min="1" max="10" />
+      <br />
+      <input type="button" value="Submit" />
+
+      <h1>Select some option</h1>
+      <select name="subject">
+        <option value="@gmail.com">gmail</option>
+        <option value="CSS">CSS</option>
+        <option value="Javascript">Javascript</option>
+        <option value="React">React</option>
+        <option value="Node">Node</option>
+      </select>
+      <fieldset>
+        <legend>How was your experience</legend>
+        <input type="radio" name="exp" value="1" />1
+        <input type="radio" name="exp" value="2" />2
+        <input type="radio" name="exp" value="3" />3
+        <input type="radio" name="exp" value="4" />4
+        <input type="radio" name="exp" value="5" />5
+      </fieldset>
+      <fieldset>
+        <p>How was your experience</p>
+        <input type="radio" name="ques1" value="1" />1
+        <input type="radio" name="ques1" value="2" />2
+        <input type="radio" name="ques1" value="3" />3
+        <input type="radio" name="ques1" value="4" />4
+      </fieldset>
+      <!-- check box -->
+      <label> Fav languages</label>
+      Html <input type="checkbox" name="favlang" /> CSS
+      <input type="checkbox" name="favlang" /> Javascript
+      <input type="checkbox" name="favlang" /> React
+      <input type="checkbox" name="favlang" /> Node
+      <input type="checkbox" name="favlang" />
+      <!-- check box -->
+      <br />
+      <!-- check box -->
+      <label> Languages That you know</label>
+      Html <input type="checkbox" name="knowlang" /> CSS
+      <input type="checkbox" name="knowlang" /> Javascript
+      <input type="checkbox" name="knowlang" /> React
+      <input type="checkbox" name="knowlang" /> Node
+      <input type="checkbox" name="knowlang" />
+      <!-- check box -->
+      <br />
+      <textarea
+        name="message"
+        required
+        disabled
+        cols="100"
+        rows="10"
+      ></textarea>
+      <button type="submit">Submit Button</button>
+      <button type="button">Simple Button</button>
+      <button type="reset">Reset Button</button>
+    </form>
+  </body>
+</html>
